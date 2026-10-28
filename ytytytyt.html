@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayawak - Marbled Water Monitor of the Philippines</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0A141A',
+                            card: '#111F28',
+                            cardBorder: '#1E323F',
+                            accent: '#34D399',
+                            gold: '#FACC15',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-dark text-slate-100 font-sans antialiased selection:bg-emerald-500 selection:text-white">
+    <!-- Mobile Container Wrapper -->
+    <div class="max-w-md mx-auto bg-brand-dark min-h-screen flex flex-col border-x border-brand-cardBorder shadow-2xl relative pb-12">
+        <!-- Header -->
+        <header class="flex items-center justify-between px-5 py-4 border-b border-brand-cardBorder sticky top-0 bg-brand-dark/95 backdrop-blur z-50">
+            <div class="flex items-center space-x-3">
+                <div class="w-9 h-9 rounded-lg bg-emerald-600/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400">
+                    <!-- Lizard / Water Icon -->
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                </div>
+                <div>
+                    <h1 class="font-bold tracking-wider text-sm text-white">BAYAWAK</h1>
+                    <p class="text-[10px] text-emerald-400 font-medium tracking-wide">PHILIPPINE MONITOR LIZARDS</p>
+                </div>
+            </div>
+            <button class="text-slate-300 hover:text-white p-1">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="px-5 pt-8 pb-6">
+            <h2 class="text-xs uppercase tracking-widest text-emerald-400 font-semibold mb-2">Endemic Wildlife</h2>
+            <h3 class="text-3xl font-serif font-bold text-white leading-tight mb-4">Discover the <span class="text-emerald-400 underline decoration-emerald-500/50 decoration-2 underline-offset-4">Marbled Water Monitor</span> — a majestic reptile native to the Philippine islands.</h3>
+            <p class="text-xs text-slate-300 leading-relaxed">The marbled water monitor (Varanus marmoratus), also known commonly as the Philippine water monitor, is a large species of monitor lizard in the family Varanidae. The species is endemic to the Philippines.</p>
+        </section>
+
+        <!-- Biological Overview Stats Grid -->
+        <section class="px-5 py-4">
+            <h4 class="text-xs uppercase tracking-widest text-slate-400 font-semibold mb-4">Biological Overview</h4>
+            <div class="grid grid-cols-2 gap-3">
+                <div class="bg-brand-card border border-brand-cardBorder p-4 rounded-2xl">
+                    <span class="text-2xl font-bold text-emerald-400">1.5 - 2m</span>
+                    <p class="text-xs text-slate-400 uppercase tracking-wider mt-1 font-medium">Average Length</p>
+                </div>
+                <div class="bg-brand-card border border-brand-cardBorder p-4 rounded-2xl">
+                    <span class="text-xl font-bold text-white font-serif italic">Varanidae</span>
+                    <p class="text-xs text-slate-400 uppercase tracking-wider mt-1 font-medium">Family Name</p>
+                </div>
+                <div class="bg-brand-card border border-brand-cardBorder p-4 rounded-2xl">
+                    <span class="text-2xl font-bold text-emerald-400">Endemic</span>
+                    <p class="text-xs text-slate-400 uppercase tracking-wider mt-1 font-medium">Philippine Native</p>
+                </div>
+                <div class="bg-brand-card border border-brand-cardBorder p-4 rounded-2xl">
+                    <span class="text-2xl font-bold text-white">Carnivore</span>
+                    <p class="text-xs text-slate-400 uppercase tracking-wider mt-1 font-medium">Dietary Class</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- What is the Lizard? Physical & Behavioral Profile -->
+        <section class="px-5 py-6 space-y-4">
+            <div class="border-l-4 border-emerald-500 pl-3">
+                <span class="text-[10px] uppercase tracking-widest text-emerald-400 font-bold">Specimen Overview</span>
+                <h4 class="text-xl font-serif font-bold text-white">What is the Marbled Water Monitor?</h4>
+            </div>
+            <div class="bg-brand-card border border-brand-cardBorder rounded-2xl p-5 space-y-3">
+                <p class="text-xs text-slate-300 leading-relaxed">
+                    The Marbled Water Monitor is a powerful, heavy-bodied reptile characterized by its elongated neck, sharp curved claws, and powerful muscular legs. It features a distinctive dark grey to brownish-black body adorned with intricate yellow and pale green marbled patterns across its back and limbs.
+                </p>
+                <p class="text-xs text-slate-300 leading-relaxed">
+                    As an exceptionally agile swimmer and climber, it possesses a long, laterally flattened tail that acts like a rudder underwater. Its deeply forked tongue continuously flicks to scent-track prey, while its keen eyesight makes it one of the top cold-blooded predators in Philippine riparian ecosystems.
+                </p>
+            </div>
+        </section>
+
+        <!-- Natural Habitats Section -->
+        <section class="px-5 py-6 space-y-4">
+            <div class="border-l-4 border-emerald-500 pl-3">
+                <span class="text-[10px] uppercase tracking-widest text-emerald-400 font-bold">Ecology & Surroundings</span>
+                <h4 class="text-xl font-serif font-bold text-white">Natural Habitats</h4>
+                <p class="text-xs text-slate-400 mt-1">Marbled water monitors thrive in aquatic-rich environments across the Philippine archipelago.</p>
+            </div>
+            <div class="bg-brand-card border border-brand-cardBorder rounded-2xl p-5 space-y-2">
+                <h5 class="font-bold text-white text-base">Mangroves & Estuaries</h5>
+                <p class="text-xs text-slate-400 leading-relaxed">Frequently found navigating brackish waters, coastal mangrove forests, and tidal creeks.</p>
+            </div>
+            <div class="bg-brand-card border border-brand-cardBorder rounded-2xl p-5 space-y-2">
+                <h5 class="font-bold text-white text-base">Rivers & Freshwater Swamps</h5>
+                <p class="text-xs text-slate-400 leading-relaxed">Utilizes inland freshwater streams, rivers, and flooded wetlands as primary hunting grounds.</p>
+            </div>
+        </section>
+
+        <!-- Dietary Breakdown Section -->
+        <section class="px-5 py-6 space-y-4">
+            <h4 class="text-xs uppercase tracking-widest text-slate-400 font-semibold">Dietary Breakdown</h4>
+            <div class="bg-brand-card border border-brand-cardBorder rounded-2xl p-5 space-y-4">
+                <p class="text-xs text-slate-300 leading-relaxed mb-3">As opportunistic carnivores, they feed on a wide variety of available prey in their native ecosystems:</p>
+                <div>
+                    <div class="flex justify-between text-xs mb-1 font-medium"><span class="text-slate-300">Fish & Aquatic Life</span><span class="text-emerald-400 font-bold">40%</span></div>
+                    <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden"><div class="bg-emerald-500 h-full rounded-full" style="width: 40%"></div></div>
+                </div>
+                <div>
+                    <div class="flex justify-between text-xs mb-1 font-medium"><span class="text-slate-300">Crustaceans & Crabs</span><span class="text-emerald-400 font-bold">30%</span></div>
+                    <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden"><div class="bg-emerald-500 h-full rounded-full" style="width: 30%"></div></div>
+                </div>
+                <div>
+                    <div class="flex justify-between text-xs mb-1 font-medium"><span class="text-slate-300">Small Mammals & Carrion</span><span class="text-emerald-400 font-bold">30%</span></div>
+                    <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden"><div class="bg-emerald-500 h-full rounded-full" style="width: 30%"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expanded Interactive Knowledge Check / Quiz -->
+        <section class="px-5 py-6 space-y-6">
+            <div class="border-l-4 border-emerald-500 pl-3">
+                <span class="text-[10px] uppercase tracking-widest text-emerald-400 font-bold">Interactive Learning</span>
+                <h4 class="text-xl font-serif font-bold text-white">Knowledge Check</h4>
+                <p class="text-xs text-slate-400 mt-1">Test your understanding of the Marbled Water Monitor.</p>
+            </div>
+
+            <!-- Question 1 -->
+            <div class="bg-brand-card border border-brand-cardBorder rounded-2xl p-5 space-y-3">
+                <span class="text-[10px] tracking-widest text-emerald-400 font-bold uppercase">Question 1 of 3</span>
+                <h5 class="text-sm font-bold text-white">Where is the Marbled Water Monitor (<span class="italic font-normal text-emerald-300">Varanus marmoratus</span>) naturally found in the wild?</h5>
+                
+                <div class="space-y-2 pt-1" id="q1-options">
+                    <button onclick="checkAnswer(this, false, 'q1-feedback')" class="w-full text-left bg-brand-dark hover:bg-brand-cardBorder border border-brand-cardBorder p-3.5 rounded-xl text-xs text-slate-200 transition flex items-center justify-between">
+                        <span>Mainland Southeast Asia</span>
+                    </button>
+                    <button onclick="checkAnswer(this, true, 'q1-feedback')" class="w-full text-left bg-brand-dark hover:bg-brand-cardBorder border border-brand-cardBorder p-3.5 rounded-xl text-xs text-slate-200 transition flex items-center justify-between">
+                        <span>Endemic exclusively to the Philippines</span>
+                    </button>
+                    <button onclick="checkAnswer(this, false, 'q1-feedback')" class="w-full text-left bg-brand-dark hover:bg-brand-cardBorder border border-brand-cardBorder p-3.5 rounded-xl text-xs text-slate-200 transition flex items-center justify-between">
+                        <span>Across Australia & Papua New Guinea</span>
+                    </button>
+                </div>
+                <div id="q1-feedback" class="hidden text-xs mt-2 p-3 rounded-lg"></div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="bg-brand-card border border-brand-cardBorder rounded-2xl p-5 space-y-3">
+                <span class="text-[10px] tracking-widest text-emerald-400 font-bold uppercase">Question 2 of 3</span>
+                <h5 class="text-sm font-bold text-white">What type of diet does the Marbled Water Monitor follow?</h5>
+                
+                <div class="space-y-2 pt-1" id="q2-options">
+                    <button onclick="checkAnswer(this, false, 'q2-feedback')" class="w-full text-left bg-brand-dark hover:bg-brand-cardBorder border border-brand-cardBorder p-3.5 rounded-xl text-xs text-slate-200 transition flex items-center justify-between">
+                        <span>Strictly herbivorous (feeds on leaves and fruit)</span>
+                    </button>
+                    <button onclick="checkAnswer(this, true, 'q2-feedback')" class="w-full text-left bg-brand-dark hover:bg-brand-cardBorder border border-brand-cardBorder p-3.5 rounded-xl text-xs text-slate-200 transition flex items-center justify-between">
+                        <span>Opportunistic carnivore & scavenger</span>
+                    </button>
+                    <button onclick="checkAnswer(this, false, 'q2-feedback')" class="w-full text-left bg-brand-dark hover:bg-brand-cardBorder border border-brand-cardBorder p-3.5 rounded-xl text-xs text-slate-200 transition flex items-center justify-between">
+                        <span>Frugivorous (feeds exclusively on ripe figs)</span>
+                    </button>
+                </div>
+                <div id="q2-feedback" class="hidden text-xs mt-2 p-3 rounded-lg"></div>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="bg-brand-card border border-brand-cardBorder rounded-2xl p-5 space-y-3">
+                <span class="text-[10px] tracking-widest text-emerald-400 font-bold uppercase">Question 3 of 3</span>
+                <h5 class="text-sm font-bold text-white">Which evolutionary feature assists the monitor in powerful aquatic swimming?</h5>
+                
+                <div class="space-y-2 pt-1" id="q3-options">
+                    <button onclick="checkAnswer(this, true, 'q3-feedback')" class="w-full text-left bg-brand-dark hover:bg-brand-cardBorder border border-brand-cardBorder p-3.5 rounded-xl text-xs text-slate-200 transition flex items-center justify-between">
+                        <span>A long, laterally compressed paddle-like tail</span>
+                    </button>
+                    <button onclick="checkAnswer(this, false, 'q3-feedback')" class="w-full text-left bg-brand-dark hover:bg-brand-cardBorder border border-brand-cardBorder p-3.5 rounded-xl text-xs text-slate-200 transition flex items-center justify-between">
+                        <span>Fully webbed feet with flippers</span>
+                    </button>
+                    <button onclick="checkAnswer(this, false, 'q3-feedback')" class="w-full text-left bg-brand-dark hover:bg-brand-cardBorder border border-brand-cardBorder p-3.5 rounded-xl text-xs text-slate-200 transition flex items-center justify-between">
+                        <span>Gills that allow underwater respiration</span>
+                    </button>
+                </div>
+                <div id="q3-feedback" class="hidden text-xs mt-2 p-3 rounded-lg"></div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-auto px-6 pt-8 text-center border-t border-brand-cardBorder">
+            <div class="flex items-center justify-center space-x-2 mb-3">
+                <div class="w-6 h-6 rounded bg-emerald-600/20 flex items-center justify-center text-emerald-400">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                </div>
+                <span class="font-bold tracking-wider text-xs text-white">BAYAWAK</span>
+            </div>
+            <p class="text-[11px] text-slate-400 leading-relaxed mb-4">Dedicated to raising awareness for Philippine wildlife and biodiversity conservation.</p>
+            <p class="text-[10px] text-slate-400">© 2026 DVM-1AA Monitor Lizard Educational Showcase. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Quiz Interaction Script -->
+    <script>
+        function checkAnswer(buttonElement, isCorrect, feedbackId) {
+            const container = buttonElement.parentElement;
+            const buttons = container.querySelectorAll('button');
+            const feedback = document.getElementById(feedbackId);
+
+            buttons.forEach(btn => {
+                btn.className = "w-full text-left bg-brand-dark hover:bg-brand-cardBorder border border-brand-cardBorder p-3.5 rounded-xl text-xs text-slate-200 transition flex items-center justify-between opacity-50 pointer-events-none";
+            });
+
+            if (isCorrect) {
+                buttonElement.className = "w-full text-left bg-emerald-600/20 border border-emerald-500/80 p-3.5 rounded-xl text-xs text-emerald-300 font-semibold flex items-center justify-between opacity-100 pointer-events-none";
+                feedback.className = "text-xs mt-2 p-3 rounded-lg bg-emerald-950/60 border border-emerald-500/40 text-emerald-300";
+                feedback.innerText = "✓ Correct! Great job!";
+            } else {
+                buttonElement.className = "w-full text-left bg-rose-950/40 border border-rose-500/60 p-3.5 rounded-xl text-xs text-rose-300 font-semibold flex items-center justify-between opacity-100 pointer-events-none";
+                feedback.className = "text-xs mt-2 p-3 rounded-lg bg-rose-950/60 border border-rose-500/40 text-rose-300";
+                feedback.innerText = "✕ Incorrect. Try reviewing the section above!";
+            }
+            feedback.classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
